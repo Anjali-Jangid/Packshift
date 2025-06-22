@@ -1,0 +1,163 @@
+@media only screen and (min-width:200px) and (max-width:567px) {
+
+    nav {
+        padding: 0px;
+    }
+
+    header aside:nth-child(1) {
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+
+    header aside:nth-child(2) {
+        display: none;
+    }
+
+    /* --------------------------------------- */
+    /* banner */
+    .intro {
+        width: 90%;
+        /* text-align: center; */
+        /* border: 1px solid red; */
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .intro h1 {
+        /* text-align: center; */
+        margin-top: 10px;
+    }
+
+    .intro h3 {
+        /* text-align: center; */
+        margin-top: 10px;
+    }
+
+    .intro h4 {
+        /* text-align: center; */
+        margin-top: 10px;
+    }
+
+    .formBox {
+        width: 78%;
+        margin: 5% auto;
+    }
+
+    /* --------------------------------- */
+    /* video */
+    .video {
+        max-width: 90%;
+    }
+
+    .vid-box {
+        width: 95%
+    }
+
+    /* --------------------------------- */
+    /* our services */
+    .service-box {
+        width: 90%;
+        height: 550px;
+        /* border: 2px solid red; */
+    }
+
+    .service-box-content button {
+        margin-top: 20px;
+    }
+
+    /* --------------------------------- */
+    /* why packshift */
+    .why-packshift-box {
+        width: 45%;
+    }
+
+    /* --------------------------------- */
+    /* our achivement */
+    .our-achivement-box {
+        width: 30%;
+        /* background-color: aliceblue; */
+    }
+
+    /* --------------------------------- */
+    /* happy customer */
+   
+
+    .happy-customer-box{
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    
+}
+
+    .happy-customer-box p {
+        margin-top: 200px;
+    }
+
+    .happy-customer-innerBox {
+        width: 40%;
+        position: absolute;
+        top: 10%;
+        left: 31%;
+    }
+
+    .happy-customer-innerBox img {
+        width: 50%;
+        padding: 5px 0px;
+    }
+
+    .happy-customer-innerBox h3 {
+        font-size: 18px;
+        padding: 20px 0px;
+        /* line-height: 40px; */
+    }
+
+    /* --------------------------------- */
+    /* our address */
+    .address-content aside {
+        width: 60%;
+    }
+
+/* --------------------------------- */
+    /* truck-animation */
+    .truck-animation{
+        display: none;
+    }
+
+/* ------------------footer-contact------------------- */
+.footer-contact{
+    display: block !important;
+    width: 100%;
+    color: white;
+    display: flex;
+    /* height: 80px; */
+    /* position: relative; */
+    /* z-index: 99; */
+    /* border: 1px solid red; */
+}
+
+.footer-contact-box{
+    width: 50%;
+    text-align: center;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #035fae;
+    /* position: sticky; */
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    /* z-index: 99; */
+    /* border: 1px solid red; */
+}
+
+.footer-contact-box:nth-child(2){
+    background-color: #ffcf40;
+     position: fixed;
+    bottom: 0%;
+    left: 50%;
+    /* z-index: 99; */
+}
+
+}
